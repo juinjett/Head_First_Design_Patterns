@@ -1,1 +1,2 @@
-# Head_First_Design_Patterns
+# This is my own implementation of the book Head First Design Patterns
+I will keep updating...
