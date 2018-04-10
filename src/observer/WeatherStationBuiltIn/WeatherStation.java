@@ -1,7 +1,9 @@
 package observer.WeatherStationBuiltIn;
 
 import java.util.Observer;
-
+/*
+    Observer Pattern: 
+ */
 public class WeatherStation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
