@@ -1,5 +1,7 @@
 package state;
 
+import java.util.ListIterator;
+
 public interface State {
     void insertQuater();
 
@@ -10,5 +12,4 @@ public interface State {
     void dispense();
 
     void refill();
-
 }

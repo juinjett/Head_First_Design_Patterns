@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e03143b-6514-4b52-97e0-42a4c2c10ae0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/GumBallMachine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/HasQuaterState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/NoQuaterState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/SoldOutState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/SoldState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/State.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/state/WinnerState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BPMObserver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BeatBar.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BeatController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BeatModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BeatModelInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/BeatObserver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/ControllerInterface.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/DJTestDrive.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/compound/DJView.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java" afterPath="$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java" />
+      <change beforePath="$PROJECT_DIR$/src/state/State.java" afterPath="$PROJECT_DIR$/src/state/State.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,162 +25,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Waitress.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/Waitress.java">
+      <file leaf-file-name="BeatModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compound/BeatModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiniDuckSimulator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/strategy/SimUDuck/MiniDuckSimulator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoQuaterState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/NoQuaterState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
               <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#2073#2074#0" expanded="true" />
+                <element signature="e#2110#2111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HasQuaterState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/HasQuaterState.java">
+      <file leaf-file-name="DJTestDrive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compound/DJTestDrive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
-                <element signature="e#1027#1028#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GumBallMachineTestDrive.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoldOutState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/SoldOutState.java">
+      <file leaf-file-name="DJView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compound/DJView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="-647">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#792#793#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#3087#3088#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
+                <element signature="e#3350#3351#0" expanded="true" />
+                <element signature="e#3399#3400#0" expanded="true" />
+                <element signature="e#3574#3575#0" expanded="true" />
+                <element signature="e#3620#3621#0" expanded="true" />
+                <element signature="e#5192#5193#0" expanded="true" />
+                <element signature="e#5237#5238#0" expanded="true" />
+                <element signature="e#5277#5278#0" expanded="true" />
+                <element signature="e#5323#5324#0" expanded="true" />
+                <element signature="e#5363#5364#0" expanded="true" />
+                <element signature="e#5409#5410#0" expanded="true" />
+                <element signature="e#5450#5451#0" expanded="true" />
+                <element signature="e#5497#5498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoldState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/SoldState.java">
+      <file leaf-file-name="JComponent.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#957#958#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WinnerState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/WinnerState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            <state relative-caret-position="294">
+              <caret line="1791" column="16" lean-forward="false" selection-start-line="1791" selection-start-column="16" selection-end-line="1791" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GumBallMachine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/state/GumBallMachine.java">
+      <file leaf-file-name="BeatBar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/compound/BeatBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="75">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JProgressBar.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/JProgressBar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
               <folding>
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#963#964#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#24249#24250#0" expanded="true" />
+                <element signature="e#24277#24278#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeatController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compound/BeatController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,6 +149,12 @@
       <find>drawString</find>
       <find>paint</find>
       <find>component</find>
+      <find>modCount</find>
+      <find>Iterator</find>
+      <find>add</find>
+      <find>merge</find>
+      <find>quick</find>
+      <find>iterator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,15 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/adapter/ducks/MallardDuck.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/WildTurkey.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/TurkeyAdapter.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/Duck.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/DuckTurkeyDrive.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/TurkeyTestDrive.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/DuckAdapter.java" />
-        <option value="$PROJECT_DIR$/src/adapter/ducks/IteratorEnumeration.java" />
-        <option value="$PROJECT_DIR$/src/adapter/iterenum/IteratorEnumeration.java" />
         <option value="$PROJECT_DIR$/src/adapter/iterenum/EnumerationIterator.java" />
         <option value="$PROJECT_DIR$/src/adapter/iterenum/IteratorEnumerationTestDrive.java" />
         <option value="$PROJECT_DIR$/src/adapter/iterenum/EnumerationIteratorTestDrive.java" />
@@ -256,8 +201,6 @@
         <option value="$PROJECT_DIR$/src/composite/menuIterator/MenuIteratorTestDrive.java" />
         <option value="$PROJECT_DIR$/src/composite/menuIterator/Waitress.java" />
         <option value="$PROJECT_DIR$/src/composite/menuIterator/CompositeIterator.java" />
-        <option value="$PROJECT_DIR$/src/state/State.java" />
-        <option value="$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java" />
         <option value="$PROJECT_DIR$/src/state/SoldOutState.java" />
         <option value="$PROJECT_DIR$/src/state/SoldState.java" />
         <option value="$PROJECT_DIR$/src/state/WinerState.java" />
@@ -265,6 +208,17 @@
         <option value="$PROJECT_DIR$/src/state/HasQuaterState.java" />
         <option value="$PROJECT_DIR$/src/state/NoQuaterState.java" />
         <option value="$PROJECT_DIR$/src/state/GumBallMachine.java" />
+        <option value="$PROJECT_DIR$/src/state/State.java" />
+        <option value="$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/compound/BeatModelInterface.java" />
+        <option value="$PROJECT_DIR$/src/compound/BPMObeserver.java" />
+        <option value="$PROJECT_DIR$/src/compound/BeatObserver.java" />
+        <option value="$PROJECT_DIR$/src/compound/ControllerInterface.java" />
+        <option value="$PROJECT_DIR$/src/compound/BeatController.java" />
+        <option value="$PROJECT_DIR$/src/compound/BeatBar.java" />
+        <option value="$PROJECT_DIR$/src/compound/BeatModel.java" />
+        <option value="$PROJECT_DIR$/src/compound/DJTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/compound/DJView.java" />
       </list>
     </option>
   </component>
@@ -274,7 +228,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="813" />
@@ -311,7 +265,23 @@
               <item name="Head_First" type="b2602c69:ProjectViewProjectNode" />
               <item name="Head_First" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="compound" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Head_First" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Head_First" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Head_First" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Head_First" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SimUDuck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Head_First" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -363,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GumBallMachineTestDrive">
+  <component name="RunManager" selected="Application.DJTestDrive">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -371,14 +341,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="BeverageTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DJTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="templateMethod.*" />
+          <option name="PATTERN" value="compound.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="templateMethod.BeverageTestDrive" />
+      <option name="MAIN_CLASS_NAME" value="compound.DJTestDrive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -541,19 +511,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BeverageTestDrive" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DinerMenu" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MenuTestDrive" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MenuIteratorTestDrive" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GumBallMachineTestDrive" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DinerMenu" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MenuTestDrive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MenuIteratorTestDrive" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GumBallMachineTestDrive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DJTestDrive" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GumBallMachineTestDrive" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MenuIteratorTestDrive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MenuTestDrive" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DinerMenu" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BeverageTestDrive" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DJTestDrive" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GumBallMachineTestDrive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MenuIteratorTestDrive" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MenuTestDrive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DinerMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -578,15 +548,15 @@
       <workItem from="1522797969869" duration="2381000" />
       <workItem from="1523111708962" duration="52850000" />
       <workItem from="1523420590203" duration="15223000" />
-      <workItem from="1523717770445" duration="54295000" />
+      <workItem from="1523717770445" duration="84543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124749000" />
+    <option name="totallyTimeSpent" value="154997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -597,9 +567,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3844011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38331318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1908078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81337047" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -630,6 +600,163 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="64" column="45" lean-forward="false" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/Waitress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#986#987#0" expanded="false" />
+            <element signature="e#1013#1014#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/iterator/MenuTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/NoQuaterState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#153#154#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#627#628#0" expanded="false" />
+            <element signature="e#719#720#0" expanded="false" />
+            <element signature="e#784#785#0" expanded="false" />
+            <element signature="e#816#817#0" expanded="false" />
+            <element signature="e#859#860#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27729">
+          <caret line="1073" column="45" lean-forward="false" selection-start-line="1073" selection-start-column="40" selection-end-line="1073" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/TimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10806">
+          <caret line="275" column="4" lean-forward="true" selection-start-line="275" selection-start-column="4" selection-end-line="275" selection-end-column="4" />
+          <folding>
+            <element signature="e#5343#5403#1" expanded="false" />
+            <element signature="e#10402#10434#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/SuppressWarnings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2300">
+          <caret line="492" column="30" lean-forward="false" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="592" column="31" lean-forward="true" selection-start-line="592" selection-start-column="31" selection-end-line="592" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1744">
+          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7585">
+          <caret line="1306" column="23" lean-forward="false" selection-start-line="1306" selection-start-column="23" selection-end-line="1306" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/ComparableTimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="49" column="76" lean-forward="false" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="1453" column="17" lean-forward="false" selection-start-line="1453" selection-start-column="17" selection-end-line="1453" selection-end-column="17" />
+          <folding>
+            <element signature="e#15414#15415#0" expanded="false" />
+            <element signature="e#15459#15460#0" expanded="false" />
+            <element signature="e#30347#30348#0" expanded="false" />
+            <element signature="e#30384#30385#0" expanded="false" />
+            <element signature="e#30684#30685#0" expanded="false" />
+            <element signature="e#30716#30717#0" expanded="false" />
+            <element signature="e#31097#31127#0" expanded="false" />
+            <element signature="e#32042#32072#0" expanded="false" />
+            <element signature="e#53834#53864#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreFactoryMethod/NYPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -640,45 +767,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreFactoryMethod/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/NYPizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/NYIngredientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -686,273 +781,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/Tea.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/PizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#297#298#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#402#403#0" expanded="false" />
-            <element signature="e#466#467#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/BeverageTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/CaffeineBeverageWithHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
+        <state relative-caret-position="30">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#341#342#0" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#425#426#0" expanded="false" />
-            <element signature="e#479#480#0" expanded="false" />
-            <element signature="e#520#521#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1635">
-          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/NYPizzaStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="70" column="32" lean-forward="false" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/awt/Frame.java">
+    <entry file="file://$PROJECT_DIR$/src/factory/pizzaStoreAbtractFactory/PepperoniPizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="134" column="13" lean-forward="false" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/awt/Window.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/CurrentDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="3890" column="21" lean-forward="false" selection-start-line="3890" selection-start-column="15" selection-end-line="3890" selection-end-column="21" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/JFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="111" column="36" lean-forward="false" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/awt/Graphics2D.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/DisplayElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="666" column="25" lean-forward="false" selection-start-line="666" selection-start-column="25" selection-end-line="666" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/awt/Graphics.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="782" column="35" lean-forward="false" selection-start-line="782" selection-start-column="25" selection-end-line="782" selection-end-column="35" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/awt/Container.java">
+    <entry file="file://$PROJECT_DIR$/src/compound/BeatObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="1957" column="27" lean-forward="true" selection-start-line="1957" selection-start-column="27" selection-end-line="1957" selection-end-column="27" />
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/Coffee.java">
+    <entry file="file://$PROJECT_DIR$/src/compound/BPMObserver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-            <element signature="e#335#336#0" expanded="false" />
-            <element signature="e#394#395#0" expanded="false" />
-            <element signature="e#449#450#0" expanded="false" />
-            <element signature="e#513#514#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/Iterator.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-544">
-          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="360">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStation/StatisticsDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/MenuTestDrive.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStationBuiltIn/CurrentDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/PancakeMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/PancakeMenuIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/DinerMenuIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/Waitress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/DinerMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/iterator/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menu/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menu/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStationBuiltIn/StatisticsDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -960,261 +885,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menu/MenuComponent.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding>
+            <element signature="e#3747#3748#0" expanded="false" />
+            <element signature="e#3784#3785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStationBuiltIn/WeatherData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menu/Waitress.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStationBuiltIn/DisplayElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/WeatherStationBuiltIn/HeatIndexDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/NullIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#180#181#0" expanded="false" />
-            <element signature="e#222#223#0" expanded="false" />
-            <element signature="e#249#250#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#495#496#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#574#575#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
-            <element signature="e#766#767#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1051#1052#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menu/MenuTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="126" column="45" lean-forward="true" selection-start-line="126" selection-start-column="45" selection-end-line="126" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/MenuComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#140#141#0" expanded="false" />
-            <element signature="e#197#198#0" expanded="false" />
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#305#306#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-            <element signature="e#406#407#0" expanded="false" />
-            <element signature="e#437#438#0" expanded="false" />
-            <element signature="e#494#495#0" expanded="false" />
-            <element signature="e#532#533#0" expanded="false" />
-            <element signature="e#589#590#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-            <element signature="e#856#857#0" expanded="false" />
-            <element signature="e#897#898#0" expanded="false" />
-            <element signature="e#954#955#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/MenuIteratorTestDrive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="130" column="28" lean-forward="true" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="false" />
-            <element signature="e#10148#10149#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/CompositeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/composite/menuIterator/Waitress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/WinnerState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/HasQuaterState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/SoldState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/SoldOutState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/NoQuaterState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/GumBallMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="44" lean-forward="false" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1076#1077#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1287#1288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/strategy/SimUDuck/MiniDuckSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/GumBallMachineTestDrive.java">
+    <entry file="file://$PROJECT_DIR$/src/compound/BeatModelInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="390">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/JProgressBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="159" column="32" lean-forward="false" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
+          <folding>
+            <element signature="e#24249#24250#0" expanded="true" />
+            <element signature="e#24277#24278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/sound/midi/Sequencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="260" column="16" lean-forward="false" selection-start-line="260" selection-start-column="16" selection-end-line="260" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/BeatModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1791" column="16" lean-forward="false" selection-start-line="1791" selection-start-column="16" selection-end-line="1791" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/ControllerInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/javax/swing/BorderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="564" column="25" lean-forward="false" selection-start-line="564" selection-start-column="25" selection-end-line="564" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/BeatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/DJTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/DJView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-647">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#3350#3351#0" expanded="true" />
+            <element signature="e#3399#3400#0" expanded="true" />
+            <element signature="e#3574#3575#0" expanded="true" />
+            <element signature="e#3620#3621#0" expanded="true" />
+            <element signature="e#5192#5193#0" expanded="true" />
+            <element signature="e#5237#5238#0" expanded="true" />
+            <element signature="e#5277#5278#0" expanded="true" />
+            <element signature="e#5323#5324#0" expanded="true" />
+            <element signature="e#5363#5364#0" expanded="true" />
+            <element signature="e#5409#5410#0" expanded="true" />
+            <element signature="e#5450#5451#0" expanded="true" />
+            <element signature="e#5497#5498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compound/BeatBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
         </state>
       </provider>
